@@ -18,14 +18,9 @@ a:hover {
     text-decoration: underline;
 }
 
-.hero-logo__about {
-    font-size: 28px;
-    line-height: 32px;
-    font-weight: 500px;
-}
 
 .f-password {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 19px;
     font-weight: 500;
 }
@@ -44,20 +39,18 @@ a:hover {
     color: rgb(0, 0, 0,0.5);
 }
 
-.input-height {
-    box-shadow: none !important;
+.form-control {
+    border-width: 1px;
     height: 49px;
 }
 
-.logo-xm__screen {
-    font-size: 45px;
-    color: #0866FF;
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #0866FF;
+    
 }
 
 .card-about {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 400;
+ font-size:15px;
 }
-
-
